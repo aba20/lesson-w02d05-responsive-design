@@ -1,0 +1,19 @@
+div {
+    height: 50vh;
+    background-color: blue;
+    
+}
+
+@media(min-width: 768px){
+    div {
+        width: 75%;
+        background-color: red;
+    }
+}   
+
+@media(max-width: 789){
+    div{
+        width: 50%;
+        background-color: yellow;
+    }
+}

@@ -117,3 +117,19 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+
+@media only screen and (min-width: 768px){
+  .navigation {
+    display: block;
+    width: 100%;
+  };
+
+  body div > div:nth-child(1) p {
+    font-size: 40px;
+  };
+
+  body div > ul > img:nth-child(1){
+    dispaly: block;
+  }
+}
